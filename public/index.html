@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Urban Remedial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
@@ -12,6 +15,15 @@
       justify-content: center;
       align-items: center;
       background: #ffffff;
+    }
+
+    .roboto {
+      font-family: "Roboto", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
     }
 
     .logo {
@@ -37,6 +49,17 @@
       font: 700 18px/1 'Lato', sans-serif;
       text-shadow: 0 1px 1px rgba(0,0,0,.2);
       text-transform: uppercase;
+      text-align: center;
+    }
+
+    .info p{
+      margin-top: 20px;
+      color: #000;
+      text-align: center;
+    }
+
+    .info p a {
+      color: #000;
       text-align: center;
     }
 
@@ -94,7 +117,11 @@
 <body>
   <div class="container">
     <img src="images/logo.png" alt="Urban Remedial" class="logo">
-    <div class="ribbon ribbon-top-right"><span>Coming Soon</span></div>
+    <div class="info roboto">
+      <p>E. <a href="mailto:adam@urbanremedial.net.au">adam@urbanremedial.net.au</a></p>
+      <p>M. <a href="tel:0408206606">0408 206 606</a></p>
+      <p>New website coming soon.</p>
+    </div>
   </div>
 </body>
 </html>
